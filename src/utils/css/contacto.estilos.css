@@ -1,0 +1,11 @@
+.cuadroNaranja2{
+    background-color: #B41802;
+    -webkit-box-shadow: -38px 12px 0px -11px #FEAE4F;
+    box-shadow: -38px 12px 0px -11px #FEAE4F;
+}
+.contacto_contenido{
+    display: flex;
+}
+.imagen1 img{
+    width: 70%;
+}

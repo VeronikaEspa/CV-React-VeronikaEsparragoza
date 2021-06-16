@@ -1,0 +1,19 @@
+.todoInicio{
+    display: flex;
+}
+.nombre{
+    font-size: 54px;
+    font-family: 'Elizah';
+}
+.profesion{
+    font-size: 24px;
+    font-family: 'Spartan';
+}
+.imagen1 img{
+    width: 80%;
+}
+.rojo{
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+}
