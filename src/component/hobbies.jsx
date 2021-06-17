@@ -3,7 +3,7 @@ import '../utils/css/hobbies.estilos.css';
 
 const Hobbie = () => {
     return (
-        <div className=" cuadroRojo blanco tamañoCuadro">
+        <div className=" cuadroRojo blanco tamañoCuadro margenComponentes" id="Hobbies" name="Hobbies">
             <div className="titulo">
             Hobbies
             </div>

@@ -4,7 +4,7 @@ import focus from '../utils/images/focus.svg'
 
 const Cursos = () => {
     return (
-        <div className="cursos margen_izquierdo">
+        <div className="cursos margen_izquierdo" id="Cursos" name="Cursos">
             <div>
                 <div className="titulo">
                     Cursos Complementarios

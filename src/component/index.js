@@ -6,3 +6,4 @@ export {default as Habilidades} from './habilidades.jsx';
 export {default as Hobbies} from './hobbies.jsx';
 export {default as Inicio} from './inicio.jsx';
 export {default as Menu} from './menu.jsx';
+export {default as Galeria} from './galeria.jsx';

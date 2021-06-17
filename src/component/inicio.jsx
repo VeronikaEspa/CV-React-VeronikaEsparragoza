@@ -3,7 +3,7 @@ import '../utils/css/inicio.estilos.css';
 import chicaDocumentos from '../utils/images/chicaDocumentos.svg'
 const Inicio = () => {
     return (
-        <div className="todoInicio margen_izquierdo">
+        <div className="todoInicio margen_izquierdo margenComponentes" id="Inicio" name="Inicio">
         <div className="rojo">
             <div className="nombre">
             Veronika Alexandra Esparragoza Molina

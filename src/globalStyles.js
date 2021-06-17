@@ -15,7 +15,13 @@ const GlobalStyles = createGlobalStyle`
 .blanco{
     color: #FAFAF0;
 }
-
+body::-webkit-scrollbar{
+    width:15px;
+    background-color: #8C1102;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #FEAE4F;
+}
 // COLOR DE FONDO
 .fondo_rojo{
     background-color: #8C1102;
@@ -38,6 +44,9 @@ const GlobalStyles = createGlobalStyle`
     margin-left: 2%;
     padding: 5%;
 }
+.margenComponentes{
+    margin-top: 5%;
+}
 .titulo{
     font-size: 40px;
     font-family: 'Elizah';
@@ -45,6 +54,22 @@ const GlobalStyles = createGlobalStyle`
 }
 .parrafo{
     font-size: 20px;
+}
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #FAFAF0;
+    font-size: 22px;
+    font-family: 'Elizah';
+    padding: 20px;
+    margin: 2%;
+}
+button:hover{
+    font-size: 23px;
+}
+button a {
+    decorative-style: none;
 }
 // FUENTES
 @font-face{

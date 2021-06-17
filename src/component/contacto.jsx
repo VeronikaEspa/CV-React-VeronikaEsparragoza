@@ -4,7 +4,7 @@ import mensaje from '../utils/images/mensaje.svg';
 
 const Contactame = () => {
     return (
-        <div className="contacto_contenido">
+        <div className="contacto_contenido margenComponentes" id="Contact" name="Contact">
         <div className="cuadroNaranja2 blanco tamañoCuadro2">
             <div className="titulo">
             Contactame

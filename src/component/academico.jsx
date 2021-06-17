@@ -3,7 +3,7 @@ import '../utils/css/academico.estilos.css';
 
 const Academico = () => {
     return (
-        <div className=" cuadroNaranja blanco tamañoCuadro" id="Academico">
+        <div className=" cuadroNaranja blanco tamañoCuadro margenComponentes" id="Academico" name="Academico">
             <div className="titulo">
             Mi experiencia academica
             </div>

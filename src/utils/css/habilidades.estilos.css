@@ -1,0 +1,35 @@
+.imagenesIconos img{
+    width: 15%;
+    margin-top: 5%;
+}
+.imagenesIconos{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.git img{
+    width: 100%;
+}
+.git img:hover{
+    background-color: rgba(126, 252, 0, 0.473);
+    z-index: 0;
+}
+.capa_react{
+    position: absolute;
+}
+.react img{
+    width: 100%;
+}
+.boostrap-image img{
+    width: 50%;
+    margin-top: 5%;
+}
+.photo img{
+    width: 80%;
+}
+.iconosYboos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}

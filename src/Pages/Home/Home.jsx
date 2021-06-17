@@ -3,6 +3,7 @@ import {Inicio, Academico, Contacto, Cursos, Footer, Habilidades, Hobbies, Menu}
 const Home = () => {
     return(
         <>
+        <Menu/>
         <Inicio/>
         <Academico/>
         <Cursos/>
@@ -10,7 +11,6 @@ const Home = () => {
         <Habilidades/>
         <Contacto/>
         <Footer/>
-        <Menu/>
         </>
     )
 }
