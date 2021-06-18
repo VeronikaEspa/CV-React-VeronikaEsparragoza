@@ -2,34 +2,38 @@
     width: 15%;
     margin-top: 5%;
 }
-.imagenesIconos{
+.capa_react img{
+    width: 60%;
+    justify-content: space-around;
+}
+.container_conreact{
     display: flex;
     justify-content: space-around;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-.git img{
-    width: 100%;
+.columna_iconos{
+    flex-direction: column;
+    width: 40%;
 }
-.git img:hover{
-    background-color: rgba(126, 252, 0, 0.473);
-    z-index: 0;
-}
-.capa_react{
-    position: absolute;
-}
-.react img{
-    width: 100%;
-}
-.boostrap-image img{
-    width: 50%;
-    margin-top: 5%;
-}
-.photo img{
-    width: 80%;
-}
-.iconosYboos{
+.containerIconos1{
     display: flex;
+    justify-content: space-around;
+}
+.containerIconos1 img{
+    width: 40%;
+}
+.containerIconos2{
+    display: flex;
+    margin-top: 2%;
     justify-content: space-between;
-    margin-top: 5%;
+}
+.containerIconos2 img{
+width: 40%;
+margin-top: 5%;
+margin-left: 5%;
+margin-right: 5%;
+}
+.texto2{
+    margin-left: 30%;
 }

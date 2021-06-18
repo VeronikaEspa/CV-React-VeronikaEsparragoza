@@ -6,6 +6,26 @@
 .contacto_contenido{
     display: flex;
 }
+.imagen1{
+    justify-content: center;
+}
 .imagen1 img{
     width: 70%;
+}
+.complejo{
+    justify-content: center;
+    align-items: center;
+}
+.icono_contactame{
+    display: flex;
+    align-items: center;
+}
+.icono_contactame img{
+    margin: 1%;
+    margin-right: 2%;
+    width: 4%;
+}
+a{
+    text-decoration: none;
+    text-decoration:none;
 }

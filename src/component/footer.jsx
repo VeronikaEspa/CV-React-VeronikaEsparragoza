@@ -3,7 +3,7 @@ import '../utils/css/footer.estilos.css';
 
 const Footer = () => {
     return (
-        <div className="fondoNaranja rojo">
+        <div className="fondoNaranja">
             <div className="titulos">
             Creado por Veronika Esparragoza ©Copyright
             </div>

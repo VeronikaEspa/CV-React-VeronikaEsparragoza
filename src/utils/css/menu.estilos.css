@@ -4,6 +4,9 @@
     height: 100vh;
     float: right;
     position: fixed;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .opcionesMenu{
     text-align: center;
@@ -15,6 +18,5 @@
 .imagenMia img{
     width: 60%;
     align-items: center;
-    margin-left: 20%;
     margin-top: 10%;
 }

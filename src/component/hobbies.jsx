@@ -1,22 +1,16 @@
 import React from 'react';
 import '../utils/css/hobbies.estilos.css';
-
+// import natacion from '../utils/images/natacion.jpg'
 const Hobbie = () => {
     return (
         <div className=" cuadroRojo blanco tamañoCuadro margenComponentes" id="Hobbies" name="Hobbies">
             <div className="titulo">
-            Hobbies
+            HOBBIES
             </div>
             <div className="parrafo">
-            *Ea non amet laboris proident sunt.
-
-*Ullamco occaecat tempor mollit esse elit qui non voluptate tempor. 
-
-*Voluptate ipsum aute enim id. 
-
-*Occaecat enim sint nulla sint in elit consequat tempor enim ex id consequat elit.
-
-*Cupidatat ut laboris veniam sint do quis sit sunt dolor deserunt.
+                {/* <div className="imagenMia">
+                    <img src={vero} />
+                </div> */}
             </div>
         </div>
     )

@@ -3,7 +3,9 @@ import PrimaryFont from './utils/fonts/Spartan-Medium.ttf'
 import TitulosFont from './utils/fonts/SourceSerifPro-Bold.ttf'
 import SecundaryFont from './utils/fonts/The-Castle-Elizah.woff'
 const GlobalStyles = createGlobalStyle`
-
+html{
+    scroll-behavior: smooth;
+}
 .todito{
     display:flex;
 }
@@ -21,6 +23,7 @@ body::-webkit-scrollbar{
 }
 body::-webkit-scrollbar-thumb{
     background-color: #FEAE4F;
+    border-radius: 30px;
 }
 // COLOR DE FONDO
 .fondo_rojo{
@@ -54,6 +57,7 @@ body::-webkit-scrollbar-thumb{
 }
 .parrafo{
     font-size: 20px;
+    text-align: justify;
 }
 button{
     border: none;
@@ -66,7 +70,8 @@ button{
     margin: 2%;
 }
 button:hover{
-    font-size: 23px;
+    // font-size: 23px;
+    transform:scale(1.15);
 }
 button a {
     decorative-style: none;
@@ -88,10 +93,65 @@ button a {
     font-style: normal;
 }
 // RESPONSIVE
-@media screen and (max-width:769px){
-.ContainerText{
-    background-color: red;
-}
+@media only screen and (min-width:750px) and (max-width:900px){
+    .tamañoCuadro{
+        margin:6%;
+        width:70%;
+    }
+    .margen_izquierdo{
+        margin-left: 5%;
+    }
+    .margen_derecho{
+        margin-right: 10%;
+    }
+    .titulo{
+        font-size: 25px;
+    }
+    .parrafo{
+        font-size: 15px;
+    }
+    #Cursos{
+        flex-direction: column;
+        margin-right: 10%;
+    }
+    .imagen2{
+        margin-top: 1%;
+        width: 40%;
+    }
+    .capa_react img{
+        width: 100%;
+    }
+    .texto2{
+        margin-left: 0%;
+        margin-right: 10%;
+    }
+    .imagen1 img{
+        width: 60%;
+    }
+    .tamañoCuadro2{
+        width:100%;
+        margin-left: 2%;
+        padding: 4%;
+    }
+    .todoInicio{
+        flex-direction: column;
+        margin-right: 10%;
+    }
+    .profesion{
+        margin: 3%;
+    }
+    .menu{
+        width: 20%;
+    }
+    .imagenMia img{
+        width: 50%;
+        margin-top: 10%;
+    }
+    button{
+        font-size: 20px;
+        padding: 15px;
+        margin: 2%;
+    }
 }
 `
 export default GlobalStyles;
