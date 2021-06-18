@@ -1,15 +1,13 @@
 import {createGlobalStyle} from 'styled-components'
-import PrimaryFont from './utils/fonts/Spartan-Medium.ttf'
-import TitulosFont from './utils/fonts/SourceSerifPro-Bold.ttf'
 import SecundaryFont from './utils/fonts/The-Castle-Elizah.woff'
 const GlobalStyles = createGlobalStyle`
 html{
     scroll-behavior: smooth;
 }
+//Ubicado en App.js
 .todito{
     display:flex;
 }
-
 // COLOR DE TEXTO
 .rojo{
     color: #8C1102;
@@ -17,6 +15,11 @@ html{
 .blanco{
     color: #FAFAF0;
 }
+// COLOR DE FONDO
+.fondo_rojo{
+    background-color: #8C1102;
+}
+//Estilos del scroll
 body::-webkit-scrollbar{
     width:15px;
     background-color: #8C1102;
@@ -25,15 +28,16 @@ body::-webkit-scrollbar-thumb{
     background-color: #FEAE4F;
     border-radius: 30px;
 }
-// COLOR DE FONDO
-.fondo_rojo{
-    background-color: #8C1102;
-}
+//Margen de cursos, habilidades, inicio
 .margen_izquierdo{
     margin-left: 10%;
 }
 .margen_derecho{
     margin-right: 10%
+}
+//Margen general
+.margenComponentes{
+    margin-top: 5%;
 }
 // CUADROS
 .tamañoCuadro{
@@ -42,14 +46,13 @@ body::-webkit-scrollbar-thumb{
     margin-left: 10%;
     padding: 5%;
 }
+//Cuadro comentarios
 .tamañoCuadro2{
     width:70%;
     margin-left: 2%;
     padding: 5%;
 }
-.margenComponentes{
-    margin-top: 5%;
-}
+//Tipos de letras
 .titulo{
     font-size: 40px;
     font-family: 'Elizah';
@@ -59,6 +62,7 @@ body::-webkit-scrollbar-thumb{
     font-size: 20px;
     text-align: justify;
 }
+//Menu
 button{
     border: none;
     background: none;
@@ -70,7 +74,6 @@ button{
     margin: 2%;
 }
 button:hover{
-    // font-size: 23px;
     transform:scale(1.15);
 }
 button a {
@@ -78,68 +81,28 @@ button a {
 }
 // FUENTES
 @font-face{
-    font-family: "Spartan";
-    src: local("Spartan"), url(${PrimaryFont}) format('ttf');
-    font-style: normal;
-}
-@font-face{
     font-family: "Elizah";
-    src: local("Spartan"), url(${SecundaryFont}) format('woff');
+    src: local("The-Catle-Elizah"), url(${SecundaryFont}) format('woff');
     font-style: normal;
 }
-@font-face{
-    font-family: "SourceSerifPro";
-    src: local("SourceSerifPro"), url(${TitulosFont}) format('ttf');
-    font-style: normal;
-}
+
 // RESPONSIVE
 @media only screen and (min-width:750px) and (max-width:900px){
-    .tamañoCuadro{
-        margin:6%;
-        width:70%;
-    }
+    //Margenes
     .margen_izquierdo{
         margin-left: 5%;
     }
     .margen_derecho{
         margin-right: 10%;
     }
+    //Letras
     .titulo{
         font-size: 25px;
     }
     .parrafo{
         font-size: 15px;
     }
-    #Cursos{
-        flex-direction: column;
-        margin-right: 10%;
-    }
-    .imagen2{
-        margin-top: 1%;
-        width: 40%;
-    }
-    .capa_react img{
-        width: 100%;
-    }
-    .texto2{
-        margin-left: 0%;
-        margin-right: 10%;
-    }
-    .imagen1 img{
-        width: 60%;
-    }
-    .tamañoCuadro2{
-        width:100%;
-        margin-left: 2%;
-        padding: 4%;
-    }
-    .todoInicio{
-        flex-direction: column;
-        margin-right: 10%;
-    }
-    .profesion{
-        margin: 3%;
-    }
+    //menu
     .menu{
         width: 20%;
     }
@@ -151,6 +114,47 @@ button a {
         font-size: 20px;
         padding: 15px;
         margin: 2%;
+    }
+    //Inicio
+    .todoInicio{
+        flex-direction: column;
+        margin-right: 10%;
+    }
+    .profesion{
+        margin: 3%;
+    }
+    //Imagen de inicio
+    .imagen1 img{
+        width: 60%;
+    }
+    //Reorganizar seccion Cursos
+    #Cursos{
+        flex-direction: column;
+        margin-right: 10%;
+    }
+    //Imagen de Cursos
+    .imagen2{
+        margin-top: 1%;
+        width: 40%;
+    }
+    //Imagen Habilidades
+    .capa_react img{
+        width: 100%;
+    }
+    //Texto inferior de habilidades
+    .texto2{
+        margin-left: 0%;
+        margin-right: 10%;
+    }
+    //Cuadros
+    .tamañoCuadro{
+        margin:6%;
+        width:70%;
+    }
+    .tamañoCuadro2{
+        width:100%;
+        margin-left: 2%;
+        padding: 4%;
     }
 }
 `

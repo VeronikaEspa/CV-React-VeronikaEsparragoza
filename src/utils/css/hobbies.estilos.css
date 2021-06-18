@@ -3,3 +3,11 @@
     -webkit-box-shadow: -13px -13px 0px 1px #FE9C5B;
 box-shadow: -13px -13px 0px 1px #FE9C5B;
 }
+.gruposC{
+    justify-content: center;
+}
+.gruposC img{
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}

@@ -8,7 +8,8 @@ function App() {
     <div className="todito">
     <div className="App">
     <GlobalStyles/>
-    <Home/>
+    <Home/> 
+    {/* Los componentes se encuentran en home */}
     </div>
     <Menu/>
     </div>

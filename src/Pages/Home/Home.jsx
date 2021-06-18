@@ -2,7 +2,8 @@ import React from 'react'
 import {Inicio, Academico, Contacto, Cursos, Footer, Habilidades, Hobbies, Menu} from '../../component/index'
 const Home = () => {
     return(
-        <div>
+        <>
+        {/* adjunto los componentes de index.js */}
         <Menu/>
         <Inicio/>
         <Academico/>
@@ -11,7 +12,7 @@ const Home = () => {
         <Habilidades/>
         <Contacto/>
         <Footer/>
-        </div>
+        </>
     )
 }
 export default Home;
