@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/CV-React-VeronikaEsparragoza/static/css/main.547c6aa4.chunk.css",
+    "main.js": "/CV-React-VeronikaEsparragoza/static/js/main.8ccd210e.chunk.js",
+    "main.js.map": "/CV-React-VeronikaEsparragoza/static/js/main.8ccd210e.chunk.js.map",
+    "runtime-main.js": "/CV-React-VeronikaEsparragoza/static/js/runtime-main.351bfd69.js",
+    "runtime-main.js.map": "/CV-React-VeronikaEsparragoza/static/js/runtime-main.351bfd69.js.map",
+    "static/js/2.e5078a0f.chunk.js": "/CV-React-VeronikaEsparragoza/static/js/2.e5078a0f.chunk.js",
+    "static/js/2.e5078a0f.chunk.js.map": "/CV-React-VeronikaEsparragoza/static/js/2.e5078a0f.chunk.js.map",
+    "index.html": "/CV-React-VeronikaEsparragoza/index.html",
+    "static/css/main.547c6aa4.chunk.css.map": "/CV-React-VeronikaEsparragoza/static/css/main.547c6aa4.chunk.css.map",
+    "static/js/2.e5078a0f.chunk.js.LICENSE.txt": "/CV-React-VeronikaEsparragoza/static/js/2.e5078a0f.chunk.js.LICENSE.txt",
+    "static/media/Disfrutando.02c42376.png": "/CV-React-VeronikaEsparragoza/static/media/Disfrutando.02c42376.png",
+    "static/media/The-Castle-Elizah.199d8769.woff": "/CV-React-VeronikaEsparragoza/static/media/The-Castle-Elizah.199d8769.woff",
+    "static/media/Vero_circulo.e8e13276.png": "/CV-React-VeronikaEsparragoza/static/media/Vero_circulo.e8e13276.png",
+    "static/media/arduino.8c62b8fd.svg": "/CV-React-VeronikaEsparragoza/static/media/arduino.8c62b8fd.svg",
+    "static/media/chicaDocumentos.7b9e379c.svg": "/CV-React-VeronikaEsparragoza/static/media/chicaDocumentos.7b9e379c.svg",
+    "static/media/css-3.212d777a.svg": "/CV-React-VeronikaEsparragoza/static/media/css-3.212d777a.svg",
+    "static/media/figma.59c8a2f6.svg": "/CV-React-VeronikaEsparragoza/static/media/figma.59c8a2f6.svg",
+    "static/media/focus.0c595c2a.svg": "/CV-React-VeronikaEsparragoza/static/media/focus.0c595c2a.svg",
+    "static/media/git_icon.c095558a.svg": "/CV-React-VeronikaEsparragoza/static/media/git_icon.c095558a.svg",
+    "static/media/github_icon.fec6fe4a.svg": "/CV-React-VeronikaEsparragoza/static/media/github_icon.fec6fe4a.svg",
+    "static/media/html5.3a09d060.svg": "/CV-React-VeronikaEsparragoza/static/media/html5.3a09d060.svg",
+    "static/media/javascript.b41852a0.svg": "/CV-React-VeronikaEsparragoza/static/media/javascript.b41852a0.svg",
+    "static/media/linkedin_icon.c004d8fa.svg": "/CV-React-VeronikaEsparragoza/static/media/linkedin_icon.c004d8fa.svg",
+    "static/media/logo.6ce24c58.svg": "/CV-React-VeronikaEsparragoza/static/media/logo.6ce24c58.svg",
+    "static/media/mail_icono.91933ceb.svg": "/CV-React-VeronikaEsparragoza/static/media/mail_icono.91933ceb.svg",
+    "static/media/mensaje.8d06b2c7.svg": "/CV-React-VeronikaEsparragoza/static/media/mensaje.8d06b2c7.svg",
+    "static/media/photoshop.f8399418.svg": "/CV-React-VeronikaEsparragoza/static/media/photoshop.f8399418.svg",
+    "static/media/whats_icon.31fa25eb.svg": "/CV-React-VeronikaEsparragoza/static/media/whats_icon.31fa25eb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.351bfd69.js",
+    "static/js/2.e5078a0f.chunk.js",
+    "static/css/main.547c6aa4.chunk.css",
+    "static/js/main.8ccd210e.chunk.js"
+  ]
+}
